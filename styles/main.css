@@ -1,10 +1,6 @@
 @import url("reset.css");
 @import url("fonts.css");
 
-/* html{
-    scroll-behavior: smooth;
-} */
-
 body {
   font-family: "Oswald", sans-serif;
 }
@@ -14,8 +10,6 @@ body {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  /* border-right: 1px solid #000; */
-  /* border-left: 1px solid #000; */
 }
 
 .d-flex {
@@ -38,17 +32,15 @@ body {
 
 .header-logo {
   width: 20%;
-  /* background-color: pink; */
 }
 
-.logo-link {
+/* .logo-link {
   font-size: 30px;
   color: #313131;
-}
+} */
 
 .header-menu {
   width: 50%;
-  /* background-color: deeppink; */
 }
 
 .menu-link {
@@ -107,7 +99,7 @@ body {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   transition: 0.5s ease;
@@ -167,10 +159,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   height: 90vh;
-  /* opacity: 0.5; */
 }
 
-/* WORKS */
 .example-list {
   display: flex;
   justify-content: space-between;
