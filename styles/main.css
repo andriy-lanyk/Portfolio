@@ -34,10 +34,16 @@ body {
   width: 20%;
 }
 
-/* .logo-link {
-  font-size: 30px;
+.logo-link {
+  font-size: 26px;
   color: #313131;
-} */
+  border-bottom: 2px solid transparent;
+  transition: all 0.7s;
+}
+
+.logo-link:hover {
+  color: #912424;
+}
 
 .header-menu {
   width: 50%;
@@ -59,15 +65,18 @@ body {
 }
 
 .section {
-  height: 100vh;
+  height: 100%;
   padding-top: 60px;
 }
 
 #home {
+  max-width: 1600px;
+  height: 650px;
   background-image: url("../images/Background1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-color: #2f303a;
 }
 
 .home-title {
@@ -89,7 +98,7 @@ body {
 .about-photo {
   position: relative;
   width: 30%;
-  height: 70vh;
+  height: 350px;
   background-image: url("../images/P00906-143435\ \(2\).jpg");
   background-size: cover;
   background-position: center;
@@ -243,7 +252,7 @@ body {
 .overlay-example > p {
   position: absolute;
   width: 322px;
-  height: 168px;
+  /* height: 168px; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
